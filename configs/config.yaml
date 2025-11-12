@@ -1,0 +1,8 @@
+defaults:
+  - task: classification_tta
+  - model/disc: convnext_l
+  - model/gen: sit
+  - data: imagenet_c
+  - tta: dusa
+  - trainer: default
+  - log: wandb
